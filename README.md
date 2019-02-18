@@ -32,8 +32,14 @@ All messages have their own transactions.
 So consuming services would not make any duplications. **It's strongly recommended to be implemented!**
 
 ### Environment Variables
-* PAIN_POOL_SIZE - size of the connection pool. Default: `5`
-* PAIN_POOL_TIMEOUT - timeout in seconds for pool. Default: `5`
+* PAIN_NATS_ENABLED - is nats enabled or not. Default: `true`
+* PAIN_NATS_POOL_SIZE - size of the connection pool. Default: `5`
+* PAIN_NATS_POOL_TIMEOUT - timeout in seconds for pool. Default: `5`
+
+* PAIN_STAN_ENABLED - is stan enabled or not. Default: `true`
+* PAIN_STAN_POOL_SIZE - size of the connection pool. Default: `5`
+* PAIN_STAN_POOL_TIMEOUT - timeout in seconds for pool. Default: `5`
+
 * NATS_SERVICE_NAME - name of service that is using this gem. Default: `painful_service`
 * NATS_SERVERS_URLS - array of nats servers to connect with. Default: `nats://localhost:4222`
 * STAN_SERVERS_URLS - array of stan servers to connect with. Default: `nats://localhost:4223`

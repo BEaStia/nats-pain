@@ -1,3 +1,7 @@
+# Version 0.2.0
+
+Refactored to a connection_pool for each nats/stan client.
+
 # Version 0.1.2
 
 Refactored a bit connection to use env variables with dry-configurable.
