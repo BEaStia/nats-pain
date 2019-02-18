@@ -1,3 +1,7 @@
+# Version 0.3.0
+
+Updated hash structure that could be used to load stan/nats services. 
+
 # Version 0.2.2
 
 Dropped all dry-configurable mentions
