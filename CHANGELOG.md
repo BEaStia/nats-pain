@@ -1,3 +1,7 @@
+# Version 0.2.1
+
+Dropped dry-configurable because of the conflicts for old RoR projects
+
 # Version 0.2.0
 
 Refactored to a connection_pool for each nats/stan client.
