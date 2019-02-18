@@ -1,3 +1,7 @@
+# Version 0.2.2
+
+Dropped all dry-configurable mentions
+
 # Version 0.2.1
 
 Dropped dry-configurable because of the conflicts for old RoR projects

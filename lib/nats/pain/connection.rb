@@ -1,5 +1,4 @@
 require 'securerandom'
-require 'dry-configurable'
 require 'nats_listener'
 require 'nats_streaming_listener'
 require 'ougai'
